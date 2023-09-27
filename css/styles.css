@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "cyberpunk"; /* Le nom de la police qu'on va utiliser plus loin */
+    src: url("../Cyberpunk.ttf"); /* Le lien vers le fichier de la police */
+}
+
+
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(1,41,55);
+    background: linear-gradient(90deg, rgba(1,41,55,1) 56%, rgba(47,80,87,1) 100%);
+    box-shadow: 0px 5px 20px black;
+}
+
+h1 {
+    font-family: "cyberpunk";
+    color: yellow;
+    font-size: 5em;
+    text-shadow: 1px 1px 10px rgb(12, 249, 0); 
+}
+
+article {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: none; 
+}
+
+footer h2{
+    display: inline;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(10, 209, 20);
+}
+
+footer {
+    background: rgb(12,161,19);
+    background: linear-gradient(90deg, rgba(12,161,19,1) 0%, rgba(2,23,3,1) 64%);
+    height: 170px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.vl {
+    border-left: 2px solid rgb(10, 209, 20);
+    height: 100px;
+    display: inline-block;
+}
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
